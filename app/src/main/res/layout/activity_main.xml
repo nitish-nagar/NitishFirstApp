@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/paragraph1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@id/heading"
+                />
+
+            <ImageView
+                android:id="@+id/headerimage"
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/header"
+                android:contentDescription="@null"
+                android:layout_below="@id/paragraph1"
+                />
+
+            <TextView
+                android:id="@+id/headingmini1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp"
+                android:layout_below="@id/headerimage"
+                />
+
+            <ImageView
+                android:id="@+id/androidlogoimg"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/gingerbread"
+                android:contentDescription="@null"
+                android:layout_below="@id/headingmini1"
+                />
+
+            <ImageView
+                android:id="@+id/phone"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/samsungphone"
+                android:contentDescription="@null"
+                android:layout_below="@id/androidlogoimg"
+                />
+
+            <TextView
+                android:id="@+id/paragraph2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@id/phone"
+                android:layout_below="@id/androidlogoimg"
+                />
+
+            <TextView
+                android:id="@+id/paragraph2second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@id/paragraph2"
+                />
+
+            <TextView
+                android:id="@+id/headingmini2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp"
+                android:layout_below="@id/paragraph2second"
+                />
+
+            <ImageView
+                android:id="@+id/channel"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/logo"
+                android:contentDescription="@null"
+                android:layout_below="@id/headingmini2"
+                />
+
+            <TextView
+                android:id="@+id/paragraph3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@id/channel"
+                />
+
+            <Button
+                android:id="@+id/btn1"
+                android:text="Portfolio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/paragraph3"
+                />
+
+            <Button
+                android:id="@+id/btn2"
+                android:text="YouTube Channel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn1"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
