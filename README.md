@@ -29,7 +29,7 @@ Select API Level 21 : Android 5.0 Lollipop or above
 
 ### MainActivity ###
 
-![App Screenshot](https://github.com/nitish-nagar/NitishFirstApp/blob/master/screenshot.png)
+![App Screenshot](https://github.com/nitish-nagar/NitishFirstApp/blob/master/screenshot.jpg)
 
 ## Authors
 
